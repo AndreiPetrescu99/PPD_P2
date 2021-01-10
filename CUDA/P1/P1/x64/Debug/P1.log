@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\PPD\CUDA\P1\P1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\PPD\CUDA\P1\P1\kernel.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(160): warning : expression has no effect
+  
+d:\ppd\cuda\p1\p1\stb_image.h(4183): warning : variable "old_limit" was set but never used
+  
+d:\ppd\cuda\p1\p1\stb_image.h(5096): warning : variable "idata_limit_old" was set but never used
+  
+d:\ppd\cuda\p1\p1\stb_image.h(6881): warning : variable "out_size" was set but never used
+  
+d:\ppd\cuda\p1\p1\stb_image.h(6882): warning : variable "delays_size" was set but never used
+  
+D:/PPD/CUDA/P1/P1/kernel.cu(63): warning : variable "a" was declared but never referenced
+  
+D:/PPD/CUDA/P1/P1/kernel.cu(64): warning : variable "b" was declared but never referenced
+  
+D:/PPD/CUDA/P1/P1/kernel.cu(65): warning : variable "c" was declared but never referenced
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(160): warning : expression has no effect
+  
+  kernel.cu
+  P1.vcxproj -> D:\PPD\CUDA\P1\x64\Debug\P1.exe

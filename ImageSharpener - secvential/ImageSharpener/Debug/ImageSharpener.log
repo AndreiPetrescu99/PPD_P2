@@ -1,0 +1,4 @@
+﻿  ImageSharpener.cpp
+c:\users\andrei\source\repos\imagesharpener\imagesharpener\imagesharpener.cpp(45): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\andrei\source\repos\imagesharpener\imagesharpener\imagesharpener.cpp(58): warning C4244: '=': conversion from 'double' to 'unsigned char', possible loss of data
+  ImageSharpener.vcxproj -> C:\Users\Andrei\source\repos\ImageSharpener\Debug\ImageSharpener.exe
